@@ -19,6 +19,9 @@
 		"lint:fix": "biome check --fix ."
 	},
 	"dependencies": {
+		"@emotion/react": "^11.14.0",
+		"@emotion/styled": "^11.14.1",
+		"@mui/material": "^7.2.0",
 		"react": "18",
 		"react-dom": "18"
 	},
@@ -27,6 +30,7 @@
 		"@farmfe/cli": "^1.0.4",
 		"@farmfe/core": "^1.6.7",
 		"@farmfe/plugin-react": "^1.2.0",
+		"@farmfe/plugin-react-components": "^1.0.12",
 		"@types/react": "18",
 		"@types/react-dom": "18",
 		"core-js": "^3.36.1",
