@@ -1,0 +1,35 @@
+{
+	"name": "val-random",
+	"version": "1.0.0",
+	"author": {
+		"name": "m1sk9",
+		"email": "me@m1sk9.dev",
+		"url": "https://m1sk9.dev"
+	},
+	"packageManager": "pnpm@10.13.1",
+	"scripts": {
+		"dev": "farm start",
+		"start": "farm start",
+		"build": "farm build",
+		"preview": "farm preview",
+		"clean": "farm clean",
+		"format": "biome format --write .",
+		"format:check": "biome format .",
+		"lint": "biome check .",
+		"lint:fix": "biome check --fix ."
+	},
+	"dependencies": {
+		"react": "18",
+		"react-dom": "18"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.1.2",
+		"@farmfe/cli": "^1.0.4",
+		"@farmfe/core": "^1.6.7",
+		"@farmfe/plugin-react": "^1.2.0",
+		"@types/react": "18",
+		"@types/react-dom": "18",
+		"core-js": "^3.36.1",
+		"react-refresh": "^0.14.0"
+	}
+}
