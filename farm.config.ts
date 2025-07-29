@@ -4,7 +4,7 @@ export default defineConfig({
 	plugins: ['@farmfe/plugin-react', '@farmfe/plugin-react-components'],
 	compilation: {
 		input: {
-			index: './src/index.html',
+			index: './src/pages/index.html',
 		},
 	},
 	server: {

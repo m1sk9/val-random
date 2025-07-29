@@ -1,7 +1,7 @@
 import { Box, Button } from '@mui/material';
 import { useEffect, useState } from 'react';
-import AgentInfoCard from './components/AgentInfoCard';
-import type { AgentData } from './types';
+import AgentInfoCard from '../components/AgentInfoCard';
+import type { AgentData } from '../types';
 
 export function Main() {
 	const [agentsData, setAgentsData] = useState<AgentData[]>([]);
