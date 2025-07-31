@@ -60,7 +60,6 @@ export function Main() {
 				</h1>
 			</header>
 			<Box
-				id="agent-box"
 				component="section"
 				sx={{
 					maxWidth: '400px',
