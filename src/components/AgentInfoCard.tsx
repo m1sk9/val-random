@@ -13,15 +13,15 @@ export default function AgentInfoCard({
 		>
 			<img
 				src={`https://titles.trackercdn.com/valorant-api/agents/${avatarUUID}/displayicon.png`}
-				alt="Agent Avatar"
+				alt={`${name} avatar`}
 				style={{
 					width: '60%',
 					height: '60%',
 				}}
 			/>
-			<div id="agent-info" style={{ textAlign: 'center', marginTop: '10px' }}>
-				<h2 id="agent-name">{name}</h2>
-				<p id="agent-role">{role}</p>
+			<div style={{ textAlign: 'center', marginTop: '10px' }}>
+				<h2>{name}</h2>
+				<p>{role}</p>
 			</div>
 		</div>
 	);
