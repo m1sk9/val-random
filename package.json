@@ -6,7 +6,7 @@
 		"email": "me@m1sk9.dev",
 		"url": "https://m1sk9.dev"
 	},
-	"packageManager": "pnpm@10.13.1",
+	"packageManager": "pnpm@10.14.0",
 	"scripts": {
 		"dev": "farm start",
 		"start": "farm start",
